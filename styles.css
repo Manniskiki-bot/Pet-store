@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mali', cursive;
+}
+.hero {
+    display: flex;
+    height: 80px;
+    background-color: #56433f;
+    align-items: center;
+    border-radius: 2px;
+}
+.hero ul {
+    list-style: none;
+}
+.hero li {
+    display: inline;
+    padding: 30px;
+}
+.hero a {
+    text-decoration: none;
+    color: #e9be4b;
+}
+.logo {
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.logo img{
+    width: 150px;
+}
+.main {
+    height: 100px;
+    background-color: #fcfcfc;
+    display: flex;
+}
+.text-box {
+    margin: 150px 120px;
+}
+.text-box h3{
+     font-size: 30px;
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box h2{
+    color: #fbc85f;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.circle {
+    display: flex;
+
+}
+.circle1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #7f8ae3;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 165px;
+    border-top-left-radius: 135px;
+    border-top-right-radius: 105px;
+    margin-top: 170px;
+    position: absolute;
+    opacity: 0.7;
+}
+.circle2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #f9ba37;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 165px;
+    border-top-left-radius: 135px;
+    border-top-right-radius: 105px;
+    transform: rotate(25deg);
+    opacity: 0.9;
+}
+.circle3 {
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #f49996;
+    border-bottom-left-radius: 105px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 135px;
+    margin-top: 180px;
+    margin-left: 370px;
+    position: absolute;
+    opacity: 0.7;
+    transform: rotate(-10deg);
+}
+.image1 {
+    position: absolute;
+    margin-top: 40px;
+    z-index: 1;
+}
+.image1 img {
+    width: 500px;
+    height: auto;
+}
+.middle-bar {
+    height: 90px;
+    background-color: #f9ba37;
+    margin-top: 350px;
+    z-index: 3;
+    position: relative;
+}
+.middle-bar h3 {
+   padding-top: 45px;
+    text-align: center;
+}
+.food-section {
+    display: flex;
+}
+.dog {
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.cat {
+    margin-top: 200px;
+    margin-right: 100px;
+}
+.rodent {
+    margin-top: 200px;
+}
+.major1 {
+    height: 225px;
+    width: 304px;
+    border-radius: 50%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 50px;
+    transform: rotate(5deg);
+    border: 3px dotted #fcb77e;
+}
+.shape1 {
+    margin-left: 5px;
+    height: 226px;
+    width: 304px;
+    border-radius: 50%;
+    background-color: #fcb77e;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    border-bottom-left-radius: 125px;
+    border-bottom-right-radius: 125px;
+    position: absolute;
+}
+.cat .shape1 {
+    background-color: #f49996;
+}
+.cat .major1 {
+    border: 3px dotted #f49996;
+}
+.rodent .shape1 {
+    background-color: #7cbc90;
+}
+.rodent .major1 {
+    border: 3px dotted #7cbc90;
+}
+.dog-img {
+    width: 350px;
+    position: absolute;
+    margin-top: -180px;
+}
+.cat-img {
+    width: 300px;
+    position: absolute;
+    margin-top: -180px;
+}
+.descri-text {
+    text-align: center;
+    padding-top: 60px; 
+}
+.others {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.other-img {
+    width: 400px;
+    height: 300px;
+}
+.other1 h4 {
+    margin-top: -250px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.other1 h4, .other1 h2 {
+    text-align: center;
+    color: white;
+}
+.other2 h2 {
+    text-align: center;
+    margin-top: -250px;
+    color: white;
+    font-size: 40px;
+}
+.other2 a {
+    background-color: #dda82f;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: black;
+}
+.btn {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.other3 h3 {
+    margin-top: -250px;
+    line-height: 1.5em;
+}
+.other3 h3, .other3 h2 {
+    margin-left: 60px;
+    color: white;
+}
+.others h2 {
+    font-size: 40px;
+}
+.other3 a {
+    text-decoration: none;
+    color: white;
+    background-color: #329f53;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.featured h2 {
+    margin-top: 120px;
+    text-align: center;
+}
+.dog-food {
+    display: flex;
+    margin-left: 40px;
+}
+.dog-food img {
+    width: 280px;
+    background-color: #f7f7f7;
+    margin-right: 15px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.descri {
+    padding-top: 5px;
+    text-align: center;
+}
+.diff {
+    color: #dda82f;
+}
+.social-media {
+    margin-top: 10px;
+    height: 70px;
+    background-color: #9e805a;
+    
+}
